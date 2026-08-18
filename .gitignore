@@ -8,3 +8,5 @@ qwen3_5_finetuned*/
 unsloth_compiled_cache/
 model/*
 *word_counts*.csv
+
+!**/.gitkeep

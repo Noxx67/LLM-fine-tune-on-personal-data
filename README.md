@@ -6,11 +6,11 @@ Dumb side project to try and test LoRA/QLoRA training on local LLMs.
 
 ## Overview
 
-This project provides an end-to-end pipeline to parse, clean, format, and fine-tune Large Language Models on personal chat exports. The goal is to align a local LLM to replicate specific conversational writing styles, tone, and personal context securely on local hardware.
+end-to-end pipeline to parse, clean, format, and fine-tune Large Language Models on personal chat exports. The goal is to align a local LLM to replicate specific conversational writing styles, tone, and personal context (talk like me) on local hardware.
 
-Project so far is not organized well and since I doubt anyone will try to use it I won't bother unless asked to. The dataset used is my personal DMs on Instagram for now and the base model is **Qwen3.5-2B**. With my RTX 3060 (6GB VRAM), it allows me to train on the entire dataset with batch size 16 for 3 hours on 1 epoch.
+Project so far is not organized well and since I doubt anyone will try to use it I won't bother unless asked to. The dataset used is my personal DMs on Instagram for now and the base model is **Qwen3.5-2B**. With my brave and lovely RTX 3060 (6GB VRAM), it allows me to train on the entire dataset with batch size 16 for 3 hours on 1 epoch. (21k data rows)
 
-I also keep a "journal" in the repo called [Notes_to_self.txt](Notes_to_self.txt) which I will detail more on later if I ever bother.
+I also keep a "journal" in the repo called [Notes_to_self.txt](Notes_to_self.txt) which I will detail more on later if I ever bother. mostly fun interactions with the llms.
 
 ---
 
