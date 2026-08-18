@@ -1,0 +1,63 @@
+Journal log to keep my sanity in check:
+
+***** sends so many fucking reels that he is top 21 of the most used words with a count of 3943 im fucking crying
+
+ok so version 1 is absolutely horrendous
+apparently it likes repeating words since there is the (edited) tag which i need to clean up from the dataset
+its hella dumb saying stuff like and i quote
+
+>fuck do you do in your life
+
+>>nothing
+>>its just a hobby
+
+>say something fun
+
+>>you said you dont know anything about me
+>>this is your first time talking to me
+
+very fun person to talk to it seems 
+
+>can you talk about something interesting
+
+>>the world is a cruel place
+>>there are so many people who are not human
+>>i cant be human anymore
+>>im in deep sleep (edited)
+
+originally the first version was trained on a shit ton of data which is probably all messed up with a lot of filler
+there were also edited tags that keps fucking up everything
+next test will be reducing the dataset to only some converstations instead of all of them, fix the edited, and maybe increase the length of the messages,
+also also maybe reduce the time to reply or split since the ai talks too much nonsense.
+
+smth smth reduced dataset to only include relevant convos, reduced lora rank by half and running 4 batches speeds up training a lot
+may want to reduce the dataset even further by increasing the length of the output and also try to remove any duplicate patterns later on.
+
+V2 is still training however i saw some more issues plague the dataset which is the call messages (fuck)
+next version will change that again and it also looks like training is plateau-ing at 2.4-2.3 so eh
+
+edited learning rate scheduling just in case since it probably has a lot of data to go through
+forgot to edit system prompt kill me
+
+version 2 seems more stable so the data cleaning really helped a lot however i did notice there are some repeating patterns that needs to be fixed,
+also it repeats some phrases a bit too much to my taste might have to check the data again.
+
+THIS BITCH JUST DIDNT REPLY TO ME IM CRYING
+
+V2.5 so far is being trained on only 1 chat and it has reached a mean token accuracy of 100% what the fuck :sob: its only at 37% training
+
+V2.5 didnt perform well enough it acts too normal. it did take however some traits of my character
+
+onto V2.6 (fuck naming conventions) changed the dataset to include more shorter responses since i believe these are the ones that hold more value and included only the recent ones by 1 year
+also changed the rank of the lora from 4 to 8 since it was changed to 4 before which i believe wasnt enough to hold all the info
+so far training is steady wth a loss of 0.8 and a mean token acc of 0.85 which is pretty good ngl
+also reduced the system prompt somewhat. and now im realising it wouldve been a good idea to track the progress here with git but oh well what else can you do
+
+V2.6 went back to being too lobotomized. the data is to blame ngl.
+V2.65 will have a different sample with longer messages and capped at 1000 characters or more and 2 year old messages
+
+for v2.65 its actually performing quite well for the dataset being only 1 dm. it seems like longer messages have been yielding better results
+promising to train it on a bigger dataset later on. also i figure using discord dms will have more substance to them too.
+also some redundancy appears to happen from time to time. gotta check the dataset again.
+
+for V3 ill probably straight up use an llm to judge if it makes sense. 
